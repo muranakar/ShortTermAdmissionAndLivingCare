@@ -17,15 +17,25 @@ struct UseCaseFilterFacilityInformation {
                 let array = CsvConversion.convertFacilityInformationFromCsv(serviceType: serviceType)
                 facilityInformations += array
             }
-        case .inHomeRehabilitation:
+        case .shortStay:
             facilityInformations =
             CsvConversion.convertFacilityInformationFromCsv(
-                serviceType: .inHomeRehabilitation
+                serviceType: .shortStay
             )
-        case .inHomeNursing:
+        case .shortStayHealthCareFacilityfortheElderly:
             facilityInformations =
             CsvConversion.convertFacilityInformationFromCsv(
-                serviceType: .inHomeNursing
+                serviceType: .shortStayHealthCareFacilityfortheElderly
+            )
+        case .shortStayLongTermCareMedicalFacilities:
+            facilityInformations =
+            CsvConversion.convertFacilityInformationFromCsv(
+                serviceType: .shortStayLongTermCareMedicalFacilities
+            )
+        case .shortStayLongTermCareMedicalFacility:
+            facilityInformations =
+            CsvConversion.convertFacilityInformationFromCsv(
+                serviceType: .shortStayLongTermCareMedicalFacility
             )
         }
         return facilityInformations

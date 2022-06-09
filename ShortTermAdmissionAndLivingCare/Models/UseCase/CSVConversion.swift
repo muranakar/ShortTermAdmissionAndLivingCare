@@ -31,8 +31,8 @@ struct CsvConversion {
                 return revisonString
             }
             guard array.count == 24 else {
+print( array)
                 return
-
             }
             csvLineTwoDimensional.append(revisionArray)
         }
@@ -62,26 +62,36 @@ struct CsvConversion {
 }
 
 enum ServiceType: CaseIterable {
-    case inHomeRehabilitation
-    case inHomeNursing
+    case shortStay
+    case shortStayHealthCareFacilityfortheElderly
+    case shortStayLongTermCareMedicalFacilities
+    case shortStayLongTermCareMedicalFacility
 }
 
 extension ServiceType {
     var stringJapanese: String {
         switch self {
-        case .inHomeRehabilitation:
-            return "訪問リハビリテーション"
-        case .inHomeNursing:
-            return "訪問看護"
+        case .shortStay:
+            return "短期入所生活介護"
+        case .shortStayHealthCareFacilityfortheElderly:
+            return "短期入所療養介護（介護老人保健施設）"
+        case .shortStayLongTermCareMedicalFacilities:
+            return "短期入所療養介護（介護療養型医療施設）"
+        case .shortStayLongTermCareMedicalFacility:
+            return "短期入所療養介護（介護医療院）"
         }
     }
     
     var fileName: String {
         switch self {
-        case .inHomeRehabilitation:
-            return "140_訪問リハビリテーショ"
-        case .inHomeNursing:
-            return "130_訪問看護"
+        case .shortStay:
+            return "210_短期入所生活介護"
+        case .shortStayHealthCareFacilityfortheElderly:
+            return "220_短期入所療養介護（介護老人保健施設）"
+        case .shortStayLongTermCareMedicalFacilities:
+            return "230_短期入所療養介護（介護療養型医療施設）"
+        case .shortStayLongTermCareMedicalFacility:
+            return "551_短期入所療養介護（介護医療院）"
         }
     }
 }
