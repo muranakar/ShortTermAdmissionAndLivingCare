@@ -792,7 +792,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DJ7VR35KC8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShortTermAdmissionAndLivingCare/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "ショートステイ";
