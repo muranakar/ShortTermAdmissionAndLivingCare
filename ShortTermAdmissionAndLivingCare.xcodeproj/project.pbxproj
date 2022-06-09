@@ -762,7 +762,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShortTermAdmissionAndLivingCare/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "訪問リハビリ・看護MAP";
+				INFOPLIST_KEY_CFBundleDisplayName = "ショートステイ";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "近くの事業所を検索するために、あなたの位置情報を使用します。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -795,7 +795,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShortTermAdmissionAndLivingCare/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "訪問リハビリ・看護MAP";
+				INFOPLIST_KEY_CFBundleDisplayName = "ショートステイ";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "近くの事業所を検索するために、あなたの位置情報を使用します。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
